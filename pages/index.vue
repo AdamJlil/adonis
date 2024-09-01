@@ -3,17 +3,42 @@ const currentUser = useAuthUser();
 </script>
 
 <template>
-    <div class="w-full h-[100vh] bg-blue text-white flex flex-col justify-center items-center gap-[60px] relative" style="font-family: Montserrat;">
-     <p class="text-white" style="font-weight: 500;letter-spacing: 5px;font-size: 25px">READY TO GET FIT     ?</p>
-     <div class="flex gap-[120px] w-full justify-center items-center">
-      <div class="text-white border-[1px] border-white py-[10px] px-[90px] text-center" style="font-weight: 300;">JOIN</div>
-      <div class="text-white border-[1px] border-white py-[10px] px-[90px] text-center" style="font-weight: 300;">JOIN</div>
-     </div>
+    <div class="w-full h-screen text-white flex flex-col justify-center items-center gap-14 relative font-montserrat bg-transparent">
 
-     <div class="absolute bottom-[25px] flex gap-[120px] w-full justify-center items-center">
-      <p class="text-white" style="font-weight: 300;letter-spacing: 5px;font-size: 20px">YOUR COMPLETE FITNESS ECOSYSTEM</p>
-     </div>
 
-   
+      <!-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="/archive/6388436-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> -->
+  
+      <div class="relative z-10 flex flex-col items-center gap-14">
+        <p class="font-medium tracking-widest text-2xl">
+          READY TO GET FIT?
+        </p>
+  
+        <div class="flex gap-32 w-full justify-center items-center">
+          <button class="border border-white py-2.5 px-20 text-center font-light">
+            JOIN
+          </button>
+          <button class="border border-white py-2.5 px-20 text-center font-light">
+            JOIN
+          </button>
+        </div>
+        </div>
+
+        <div class="absolute bottom-[25px] flex gap-[120px] w-full justify-center items-center">
+            <p class="text-white" style="font-weight: 300;letter-spacing: 5px;font-size: 20px">YOUR COMPLETE FITNESS ECOSYSTEM</p>
+        </div>
+      
+
+
     </div>
-</template>
+
+    <div class="w-full bg-blue h-[25vh] text-white flex flex-col justify-center items-center gap-14 relative font-montserrat bg-transparent">
+        
+    </div>
+
+    
+
+  </template>
+  
